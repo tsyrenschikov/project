@@ -1,0 +1,18 @@
+Collecting asgiref==3.6.0
+  Using cached asgiref-3.6.0-py3-none-any.whl (23 kB)
+Collecting Django==3.2.16
+  Using cached Django-3.2.16-py3-none-any.whl (7.9 MB)
+Collecting psycopg2-binary==2.9.5
+  Downloading psycopg2_binary-2.9.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.0/3.0 MB 7.2 MB/s eta 0:00:00
+Collecting pytz==2022.7.1
+  Using cached pytz-2022.7.1-py2.py3-none-any.whl (499 kB)
+Collecting sqlparse==0.4.3
+  Using cached sqlparse-0.4.3-py3-none-any.whl (42 kB)
+Collecting typing_extensions==4.4.0
+  Using cached typing_extensions-4.4.0-py3-none-any.whl (26 kB)
+Installing collected packages: pytz, typing_extensions, sqlparse, psycopg2-binary, asgiref, Django
+Successfully installed Django-3.2.16 asgiref-3.6.0 psycopg2-binary-2.9.5 pytz-2022.7.1 sqlparse-0.4.3 typing_extensions-4.4.0
+
+[notice] A new release of pip available: 22.2.2 -> 22.3.1
+[notice] To update, run: python3.10 -m pip install --upgrade pip

@@ -1,0 +1,142 @@
+2023-01-27_16:02:09.16121 OK[uWSGI] getting INI configuration from /etc/hosting2/sv/project.tsyrenschikov.ru-wsgi/conf/wsgi.ini
+2023-01-27_16:02:09.36845 [uWSGI] getting INI configuration from /etc/hosting2/sv/project.tsyrenschikov.ru-wsgi/conf/additional.ini
+2023-01-27_16:02:09.43060 *** Starting uWSGI 2.0.18-debian (64bit) on [Fri Jan 27 21:02:09 2023] ***
+2023-01-27_16:02:09.43061 compiled with version: 8.2.0 on 10 February 2019 02:42:46
+2023-01-27_16:02:09.43062 os: Linux-4.9.0-hosting13-amd64 #1 SMP Debian 4.9.272-1 (2021-06-21)
+2023-01-27_16:02:09.43062 nodename: h19.netangels.ru
+2023-01-27_16:02:09.43062 machine: x86_64
+2023-01-27_16:02:09.43062 clock source: unix
+2023-01-27_16:02:09.43062 pcre jit disabled
+2023-01-27_16:02:09.43063 detected number of CPU cores: 16
+2023-01-27_16:02:09.43063 current working directory: /home/c25867/project.tsyrenschikov.ru/app
+2023-01-27_16:02:09.43063 writing pidfile to /home/c25867/project.tsyrenschikov.ru/tmp/project.tsyrenschikov.ru-wsgi.pid
+2023-01-27_16:02:09.43063 detected binary path: /usr/bin/uwsgi-core
+2023-01-27_16:02:09.43064 chdir() to /home/c25867/project.tsyrenschikov.ru/app
+2023-01-27_16:02:09.43064 your processes number limit is 334269
+2023-01-27_16:02:09.43064 your memory page size is 4096 bytes
+2023-01-27_16:02:09.43064 detected max file descriptor number: 1024
+2023-01-27_16:02:09.43064 lock engine: pthread robust mutexes
+2023-01-27_16:02:09.43069 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-01-27_16:02:09.43080 uwsgi socket 0 bound to UNIX address /home/c25867/project.tsyrenschikov.ru/tmp/project.tsyrenschikov.ru-wsgi.sock fd 3
+2023-01-27_16:02:09.43089 Python version: 3.7.3 (default, Oct 31 2022, 14:04:00)  [GCC 8.3.0]
+2023-01-27_16:02:09.43089 Set PythonHome to /home/c25867/project.tsyrenschikov.ru/.env
+2023-01-27_16:02:09.44423 Python main interpreter initialized at 0x561816a57350
+2023-01-27_16:02:09.44424 python threads support enabled
+2023-01-27_16:02:09.44424 your server socket listen backlog is limited to 100 connections
+2023-01-27_16:02:09.44424 your mercy for graceful operations on workers is 60 seconds
+2023-01-27_16:02:09.44441 mapped 785520 bytes (767 KB) for 8 cores
+2023-01-27_16:02:09.44451 *** Operational MODE: preforking+threaded ***
+2023-01-27_16:02:09.44475 added /home/c25867/project.tsyrenschikov.ru/app/ to pythonpath.
+2023-01-27_16:02:09.44685 WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x561816a57350 pid: 1
+2023-01-27_16:02:09.44686 mountpoint  already configured. skip.
+2023-01-27_16:02:09.44686 *** uWSGI is running in multiple interpreter mode ***
+2023-01-27_16:02:09.44686 spawned uWSGI master process (pid: 1)
+2023-01-27_16:02:09.44714 spawned uWSGI worker 1 (pid: 7, cores: 2)
+2023-01-27_16:02:09.44734 spawned uWSGI worker 2 (pid: 8, cores: 2)
+2023-01-27_16:02:09.44764 spawned uWSGI worker 3 (pid: 10, cores: 2)
+2023-01-27_16:02:09.44818 spawned uWSGI worker 4 (pid: 12, cores: 2)
+2023-01-27_16:02:09.44829 spawned 4 offload threads for uWSGI worker 1
+2023-01-27_16:02:09.44883 spawned 4 offload threads for uWSGI worker 4
+2023-01-27_16:02:09.46345 spawned 4 offload threads for uWSGI worker 3
+2023-01-27_16:02:09.47302 spawned 4 offload threads for uWSGI worker 2
+2023-01-27_16:02:23.63101 SIGINT/SIGQUIT received...killing workers...
+2023-01-27_16:02:24.63286 worker 1 buried after 1 seconds
+2023-01-27_16:02:24.63287 worker 2 buried after 1 seconds
+2023-01-27_16:02:24.63288 worker 3 buried after 1 seconds
+2023-01-27_16:02:24.63288 worker 4 buried after 1 seconds
+2023-01-27_16:02:24.63288 goodbye to uWSGI.
+2023-01-27_16:02:24.63289 VACUUM: pidfile removed.
+2023-01-27_16:02:24.63290 VACUUM: unix socket /home/c25867/project.tsyrenschikov.ru/tmp/project.tsyrenschikov.ru-wsgi.sock removed.
+2023-01-27_16:02:25.87621 OK[uWSGI] getting INI configuration from /etc/hosting2/sv/project.tsyrenschikov.ru-wsgi/conf/wsgi.ini
+2023-01-27_16:02:26.07453 [uWSGI] getting INI configuration from /etc/hosting2/sv/project.tsyrenschikov.ru-wsgi/conf/additional.ini
+2023-01-27_16:02:26.14522 *** Starting uWSGI 2.0.18-debian (64bit) on [Fri Jan 27 21:02:26 2023] ***
+2023-01-27_16:02:26.14524 compiled with version: 8.2.0 on 10 February 2019 02:42:46
+2023-01-27_16:02:26.14524 os: Linux-4.9.0-hosting13-amd64 #1 SMP Debian 4.9.272-1 (2021-06-21)
+2023-01-27_16:02:26.14524 nodename: h19.netangels.ru
+2023-01-27_16:02:26.14525 machine: x86_64
+2023-01-27_16:02:26.14525 clock source: unix
+2023-01-27_16:02:26.14525 pcre jit disabled
+2023-01-27_16:02:26.14525 detected number of CPU cores: 16
+2023-01-27_16:02:26.14525 current working directory: /home/c25867/project.tsyrenschikov.ru/app
+2023-01-27_16:02:26.14526 writing pidfile to /home/c25867/project.tsyrenschikov.ru/tmp/project.tsyrenschikov.ru-wsgi.pid
+2023-01-27_16:02:26.14526 detected binary path: /usr/bin/uwsgi-core
+2023-01-27_16:02:26.14526 chdir() to /home/c25867/project.tsyrenschikov.ru/app
+2023-01-27_16:02:26.14526 your processes number limit is 334269
+2023-01-27_16:02:26.14526 your memory page size is 4096 bytes
+2023-01-27_16:02:26.14526 detected max file descriptor number: 1024
+2023-01-27_16:02:26.14623 lock engine: pthread robust mutexes
+2023-01-27_16:02:26.14624 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-01-27_16:02:26.14642 uwsgi socket 0 bound to UNIX address /home/c25867/project.tsyrenschikov.ru/tmp/project.tsyrenschikov.ru-wsgi.sock fd 3
+2023-01-27_16:02:26.14667 Python version: 3.7.3 (default, Oct 31 2022, 14:04:00)  [GCC 8.3.0]
+2023-01-27_16:02:26.14668 Set PythonHome to /home/c25867/project.tsyrenschikov.ru/.env
+2023-01-27_16:02:26.15955 Python main interpreter initialized at 0x55fda3bc1350
+2023-01-27_16:02:26.15956 python threads support enabled
+2023-01-27_16:02:26.15957 your server socket listen backlog is limited to 100 connections
+2023-01-27_16:02:26.15957 your mercy for graceful operations on workers is 60 seconds
+2023-01-27_16:02:26.16023 mapped 785520 bytes (767 KB) for 8 cores
+2023-01-27_16:02:26.16023 *** Operational MODE: preforking+threaded ***
+2023-01-27_16:02:26.16024 added /home/c25867/project.tsyrenschikov.ru/app/ to pythonpath.
+2023-01-27_16:02:26.42674 WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55fda3bc1350 pid: 1
+2023-01-27_16:02:26.42676 mountpoint  already configured. skip.
+2023-01-27_16:02:26.42676 *** uWSGI is running in multiple interpreter mode ***
+2023-01-27_16:02:26.42676 spawned uWSGI master process (pid: 1)
+2023-01-27_16:02:26.42829 spawned uWSGI worker 1 (pid: 7, cores: 2)
+2023-01-27_16:02:26.42912 spawned uWSGI worker 2 (pid: 10, cores: 2)
+2023-01-27_16:02:26.42945 spawned 4 offload threads for uWSGI worker 1
+2023-01-27_16:02:26.42973 spawned 4 offload threads for uWSGI worker 2
+2023-01-27_16:02:26.42974 spawned uWSGI worker 3 (pid: 17, cores: 2)
+2023-01-27_16:02:26.43055 spawned uWSGI worker 4 (pid: 22, cores: 2)
+2023-01-27_16:02:26.43086 spawned 4 offload threads for uWSGI worker 3
+2023-01-27_16:02:26.43125 spawned 4 offload threads for uWSGI worker 4
+2023-01-27_16:05:46.20898 SIGINT/SIGQUIT received...killing workers...
+2023-01-27_16:05:47.21120 worker 1 buried after 1 seconds
+2023-01-27_16:05:47.21122 worker 2 buried after 1 seconds
+2023-01-27_16:05:47.21122 worker 3 buried after 1 seconds
+2023-01-27_16:05:47.21122 worker 4 buried after 1 seconds
+2023-01-27_16:05:47.21122 goodbye to uWSGI.
+2023-01-27_16:05:47.21123 VACUUM: pidfile removed.
+2023-01-27_16:05:47.21123 VACUUM: unix socket /home/c25867/project.tsyrenschikov.ru/tmp/project.tsyrenschikov.ru-wsgi.sock removed.
+2023-01-27_16:06:24.06271 OK[uWSGI] getting INI configuration from /etc/hosting2/sv/project.tsyrenschikov.ru-wsgi/conf/wsgi.ini
+2023-01-27_16:06:24.22773 [uWSGI] getting INI configuration from /etc/hosting2/sv/project.tsyrenschikov.ru-wsgi/conf/additional.ini
+2023-01-27_16:06:24.22782 open("./python310_plugin.so"): No such file or directory [core/utils.c line 3731]
+2023-01-27_16:06:24.22783 !!! UNABLE to load uWSGI plugin: ./python310_plugin.so: cannot open shared object file: No such file or directory !!!
+2023-01-27_16:06:24.22814 *** Starting uWSGI 2.0.21 (64bit) on [Fri Jan 27 21:06:24 2023] ***
+2023-01-27_16:06:24.22815 compiled with version: 8.3.0 on 27 January 2023 16:05:59
+2023-01-27_16:06:24.22817 os: Linux-4.9.0-hosting13-amd64 #1 SMP Debian 4.9.272-1 (2021-06-21)
+2023-01-27_16:06:24.22817 nodename: h19.netangels.ru
+2023-01-27_16:06:24.22818 machine: x86_64
+2023-01-27_16:06:24.22819 clock source: unix
+2023-01-27_16:06:24.22819 pcre jit disabled
+2023-01-27_16:06:24.22819 detected number of CPU cores: 16
+2023-01-27_16:06:24.22820 current working directory: /home/c25867/project.tsyrenschikov.ru/app
+2023-01-27_16:06:24.22820 writing pidfile to /home/c25867/project.tsyrenschikov.ru/tmp/project.tsyrenschikov.ru-wsgi.pid
+2023-01-27_16:06:24.22833 detected binary path: /home/c25867/project.tsyrenschikov.ru/.env/bin/uwsgi
+2023-01-27_16:06:24.22834 chdir() to /home/c25867/project.tsyrenschikov.ru/app
+2023-01-27_16:06:24.22834 your processes number limit is 334269
+2023-01-27_16:06:24.22834 your memory page size is 4096 bytes
+2023-01-27_16:06:24.22835 detected max file descriptor number: 1024
+2023-01-27_16:06:24.22842 lock engine: pthread robust mutexes
+2023-01-27_16:06:24.22863 thunder lock: disabled (you can enable it with --thunder-lock)
+2023-01-27_16:06:24.22953 uwsgi socket 0 bound to UNIX address /home/c25867/project.tsyrenschikov.ru/tmp/project.tsyrenschikov.ru-wsgi.sock fd 3
+2023-01-27_16:06:24.22955 Python version: 3.10.7 (main, Sep 29 2022, 05:00:00) [GCC 8.3.0]
+2023-01-27_16:06:24.22955 PEP 405 virtualenv detected: /home/c25867/project.tsyrenschikov.ru/.env
+2023-01-27_16:06:24.22955 Set PythonHome to /home/c25867/project.tsyrenschikov.ru/.env
+2023-01-27_16:06:24.24131 Python main interpreter initialized at 0x561e97982160
+2023-01-27_16:06:24.24132 python threads support enabled
+2023-01-27_16:06:24.24133 your server socket listen backlog is limited to 100 connections
+2023-01-27_16:06:24.24133 your mercy for graceful operations on workers is 60 seconds
+2023-01-27_16:06:24.24157 mapped 785520 bytes (767 KB) for 8 cores
+2023-01-27_16:06:24.24167 *** Operational MODE: preforking+threaded ***
+2023-01-27_16:06:24.24185 added /home/c25867/project.tsyrenschikov.ru/app/ to pythonpath.
+2023-01-27_16:06:24.51617 WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x561e97982160 pid: 1
+2023-01-27_16:06:24.51619 mountpoint  already configured. skip.
+2023-01-27_16:06:24.51619 *** uWSGI is running in multiple interpreter mode ***
+2023-01-27_16:06:24.51620 spawned uWSGI master process (pid: 1)
+2023-01-27_16:06:24.51720 spawned uWSGI worker 1 (pid: 8, cores: 2)
+2023-01-27_16:06:24.51779 spawned 4 offload threads for uWSGI worker 1
+2023-01-27_16:06:24.51780 spawned uWSGI worker 2 (pid: 13, cores: 2)
+2023-01-27_16:06:24.51966 spawned uWSGI worker 3 (pid: 14, cores: 2)
+2023-01-27_16:06:24.51966 spawned uWSGI worker 4 (pid: 20, cores: 2)
+2023-01-27_16:06:24.51967 spawned 4 offload threads for uWSGI worker 3
+2023-01-27_16:06:24.51967 spawned 4 offload threads for uWSGI worker 2
+2023-01-27_16:06:24.52288 spawned 4 offload threads for uWSGI worker 4

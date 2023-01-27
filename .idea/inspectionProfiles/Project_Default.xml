@@ -1,0 +1,159 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="v-slot:no-option" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="2.7" />
+            <item index="1" class="java.lang.String" itemvalue="3.11" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E231" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="docutils-stubs==0.0.21" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="list.*" />
+          <option value="app.accounts.views.alert" />
+          <option value="app.panel.models.accounts" />
+          <option value="app.panel.views.django_hosts" />
+          <option value="app.panel.views.panel" />
+          <option value="app.panel.views.Locations" />
+          <option value="app.panel.views.Days" />
+          <option value="app.panel.views.Category" />
+          <option value="app.panel.views.Area" />
+          <option value="app.panel.views.SubCategory" />
+          <option value="app.panel.views.SubSubCategory" />
+          <option value="app.panel.views.Shop" />
+          <option value="app.panel.views.rezh" />
+          <option value="app.panel.views.offers" />
+          <option value="app.panel.views.bogdan" />
+          <option value="app.panel.views.arti" />
+          <option value="app.panel.views.arti_p" />
+          <option value="app.panel.views.chetkarino" />
+          <option value="app.panel.views.shalinsk" />
+          <option value="app.dashboard.views.panel" />
+          <option value="app.panel.views.orders" />
+          <option value="app.dashboard.views.offers" />
+          <option value="app.dashboard.views.orders" />
+          <option value="app.dashboard.views.Locations" />
+          <option value="app.shop.views.Locations" />
+          <option value="app.shop.views.panel" />
+          <option value="app.shop.views.artiobschepit" />
+          <option value="app.shop.views.Shop" />
+          <option value="app.shop.views.Category" />
+          <option value="app.shop.views.arti" />
+          <option value="app.grid.views.panel" />
+          <option value="app.grid.views.Shop" />
+          <option value="app.shop.views.apps" />
+          <option value="app.shop.views.Area" />
+          <option value="app.shop.views.pokrovskoe" />
+          <option value="app.shop.views.chetkarino" />
+          <option value="app.shop.views.rezh" />
+          <option value="app.shop.views.zajkovskoe" />
+          <option value="app.cart.cart.panel" />
+          <option value="app.cart.cart.Product" />
+          <option value="app.cart.views.panel" />
+          <option value="app.cart.views.Product" />
+          <option value="app.shop.views.cart" />
+          <option value="app.shop.views.Product" />
+          <option value="app.shop.views.CartAddProductForm" />
+          <option value="app.shop.views.Cart" />
+          <option value="app.shop.views.orders" />
+          <option value="app.shop.views.django" />
+          <option value="app.contact.views.panel" />
+          <option value="app.contact.views.Locations" />
+          <option value="app.coop_dostavka.views.panel" />
+          <option value="app.coop_dostavka.views.Locations" />
+          <option value="app.shop.urls.shop" />
+          <option value="app.shop.views.request" />
+          <option value="app.polinome.urls.views" />
+          <option value="app.polinome.views" />
+          <option value="app.polinome.urls.site" />
+          <option value="app.polinome.hosts.django_hosts" />
+          <option value="app.panel.views.reguest" />
+          <option value="app.polinome.views.panel" />
+          <option value="app.polinome.views.reguest" />
+          <option value="app.polinome.urls.include" />
+          <option value="app.home.views.panel" />
+          <option value="app.panel.views.account" />
+          <option value="app.panel.views.accounts" />
+          <option value="app.accounts.urls.reset_pass" />
+          <option value="app.accounts.urls.views" />
+          <option value="app.accounts.urls.accounts" />
+          <option value="app.accounts.urls.signup" />
+          <option value="app.dashboard.views.Shop" />
+          <option value="app.shop.views.Users" />
+          <option value="app.shop.views.local" />
+          <option value="app.shop.views.l" />
+          <option value="app.panel.views.SubsubCategory" />
+          <option value="app.panel.views.work" />
+          <option value="app.panel.views.works" />
+          <option value="app.shop.views.works" />
+          <option value="app.coop_dostavka.views.works" />
+          <option value="app.coop_dostavka.views.Shop" />
+          <option value="app.ksk_evakuator.views" />
+          <option value="app.panel.views.filezajkovskoe" />
+          <option value="app.panel.views.file" />
+          <option value="app.panel.views.files" />
+          <option value="app.panel.views.Subcategory" />
+          <option value="app.shop.urls.django" />
+          <option value="app.panel.views.django" />
+          <option value="app.panel.views.true" />
+          <option value="app.panel.views.false" />
+          <option value="app.panel.urls.django" />
+          <option value="app.panel.views.HelpDesk" />
+          <option value="app.panel.views.helpdesk_user" />
+          <option value="app.panel.update_file.panel" />
+          <option value="app.panel.update_file.Shop" />
+          <option value="elvina.off" />
+          <option value="app.panel.views.days" />
+          <option value="app.panel.views.ays" />
+          <option value="app.coop_dostavka.settings.qr_code" />
+          <option value="app.panel.file.panel" />
+          <option value="app.panel.file.Shop" />
+          <option value="app.panel.file.shell" />
+          <option value="main.apanel" />
+          <option value="main.Shop" />
+          <option value="app.coop_dostavka.mainscript.panel" />
+          <option value="app.coop_dostavka.mainscript.Shop" />
+          <option value="app.coop_dostavka.mainscript.django" />
+          <option value="Shop" />
+          <option value="django" />
+          <option value="app.coop_dostavka.celery.panel" />
+          <option value="app.panel.update_file.product_update_noupdate" />
+          <option value="app.panel.update_file.message_" />
+          <option value="app.panel.panel" />
+          <option value="app.panel.celery.Celery" />
+          <option value="app.panel.tasks.panel" />
+          <option value="app.panel.celery.shared_task" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
