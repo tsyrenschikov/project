@@ -27,7 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['project.tsyrenschikov.ru']
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -37,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'project.apps.ProjectConfig',
 ]
 
 MIDDLEWARE = [
@@ -105,7 +105,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Yekaterinburg'
 
 USE_I18N = True
 
