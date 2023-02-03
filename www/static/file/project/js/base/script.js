@@ -1,7 +1,7 @@
 // Dummy data placeholder. Replace with array of actual data objects
 const data = [
 {
-  project: "Project Порозова Дарья",
+  project: "Project Поздеева Дарья",
   stack: ["python", "django", "html", "css", "jquery"],
   description:
   "Проект ученика 10 класса 2 школы г. Красноуфимск. Изучение Фраймворка",
